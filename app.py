@@ -6,7 +6,11 @@ from langchain.llms import OpenAI
 from langchain.vectorstores import Pinecone
 import pinecone
 import streamlit as st
-from cnfg import OPENAI_API_KEY, PINECONE_API_KEY, PINECONE_API_ENV
+import os
+
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
+PINECONE_API_ENV = os.environ.get("PINECONE_API_ENV")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 
 def pdf_to_data(file_here):
