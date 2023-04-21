@@ -1,5 +1,5 @@
 pinecone-client
-openai==
+openai
 langchain[llm]
 unstructured
 unstructured-inference
