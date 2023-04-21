@@ -7,3 +7,4 @@ layoutparser[layoutmodels]
 python-dotenv
 streamlit
 layoutparser[layoutmodels,tesseract]
+tiktoken
