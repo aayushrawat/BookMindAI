@@ -3,5 +3,7 @@ openai==0.27.4
 langchain[llm]
 unstructured==0.5.12
 unstructured-inference==0.3.2
+layoutparser[layoutmodels,tesseract]
 python-dotenv
 streamlit
+detectron2 @ git+https://github.com/facebookresearch/detectron2#egg=detectron2
